@@ -1,7 +1,7 @@
 require("ts3init")            -- Required for ts3RegisterModule
-require("poke_win/events")  	-- Forwarded TeamSpeak 3 callbacks
+require("ts3poke/events")  	-- Forwarded TeamSpeak 3 callbacks
 
-local MODULE_NAME = "poke_win"
+local MODULE_NAME = "ts3poke"
 
 -- Initialize Menu's
 
