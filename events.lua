@@ -37,7 +37,7 @@ local function onMenuItemEvent(serverConnectionHandlerID, menuType, menuItemID, 
 		
 	elseif menuItemID == 4
 	then
-		for x = 1, tonumber(1000) do
+		for x = 1, tonumber(100) do
 			ts3.requestClientPoke(serverConnectionHandlerID, selectedItemID, "Poke!")
 			-- os.execute("sleep 1") (LINUX)
 			os.execute("ping 1.1.1.1 /n 1 /w 2000 >nul")
