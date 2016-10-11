@@ -13,9 +13,9 @@ local function createMenus(moduleMenuItemID)
 
 	return {
 		{ts3defs.PluginMenuType.PLUGIN_MENU_TYPE_CLIENT,  poke_events.MenuIDs.MENU_ID_CLIENT_1,  "Poke Client x10 (fast)",  "../test_plugin/1.png"},
-		{ts3defs.PluginMenuType.PLUGIN_MENU_TYPE_CLIENT,  poke_events.MenuIDs.MENU_ID_CLIENT_2,  "Poke Client x1000 (fast)",  "../test_plugin/2.png"},
+		{ts3defs.PluginMenuType.PLUGIN_MENU_TYPE_CLIENT,  poke_events.MenuIDs.MENU_ID_CLIENT_2,  "Poke Client x100 (fast)",  "../test_plugin/2.png"},
 		{ts3defs.PluginMenuType.PLUGIN_MENU_TYPE_CLIENT,  poke_events.MenuIDs.MENU_ID_CLIENT_3,  "Poke Client x10 (slow)",  "../test_plugin/1.png"},
-		{ts3defs.PluginMenuType.PLUGIN_MENU_TYPE_CLIENT,  poke_events.MenuIDs.MENU_ID_CLIENT_4,  "Poke Client x1000 (slow)",  "../test_plugin/2.png"},
+		{ts3defs.PluginMenuType.PLUGIN_MENU_TYPE_CLIENT,  poke_events.MenuIDs.MENU_ID_CLIENT_4,  "Poke Client x100 (slow)",  "../test_plugin/2.png"},
 	}
 end
 
